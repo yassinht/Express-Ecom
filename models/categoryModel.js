@@ -1,5 +1,13 @@
 const mongoose=require('mongoose');
-
+/**
+ * @openapi
+ * components:
+ *   schema:
+ *     Category:
+ *       type: object
+ *       required:
+ *        - name
+ */
 //create Schema
 const categorySchema= new mongoose.Schema({
     name:{
